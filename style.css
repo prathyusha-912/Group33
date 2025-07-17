@@ -1,0 +1,36 @@
+body {
+  font-family: serif;
+}
+
+header {
+   height: 500px;
+  background: url(backgr.jpg)no-repeat center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  padding: 50px;
+  text-align: left;
+  color: white;
+  
+}
+ header h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+ }
+header p {
+  font-size: 30px;
+   color: white;
+}
+header a {
+   margin-top:0;
+  display:inline-table;
+  background-color: rgba(0, 242, 250, 0.565);
+  color: white;
+  padding: 3px 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+ul {
+    font-size: 22px;
+}
